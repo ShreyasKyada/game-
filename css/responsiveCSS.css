@@ -56,8 +56,18 @@
   }
 }
 
-@media screen and (max-width: 402px) {
+@media screen and (max-width: 500px) {
   :root {
-    font-size: 33px;
+    font-size: 39px;
+  }
+  .div5 {
+    bottom: 160px;
+  }
+  .div7 {
+    visibility: hidden;
+  }
+  .div8 {
+    left: 20px;
+    top: 140px;
   }
 }
