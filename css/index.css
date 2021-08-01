@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Dancing Script", cursive;
+}
+
+:root {
+  font-size: 60px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1c1c25;
+  /* #e3e3da */
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -1000;
+  overflow: hidden;
+}
+
+.circle {
+  z-index: -10;
+  border-radius: 50%;
+  position: absolute;
+  background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+.square {
+  position: absolute;
+  background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  border-radius: 15px;
+}
+
+.div1 {
+  height: .833rem;
+  width: .833rem;
+  left: -27px;
+  top: -25px;
+  border-radius: 50%;
+}
+
+.div2 {
+  height: 8.33rem;
+  width: 8.33rem;
+  right: -200px;
+  top: -200px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff416c), to(#ff4b2b));
+  background: linear-gradient(#ff416c, #ff4b2b);
+}
+
+.div3 {
+  height: 3.33rem;
+  width: 5rem;
+  right: -80px;
+  bottom: -120px;
+}
+
+.div4 {
+  height: 8.33rem;
+  width: 8.33rem;
+  bottom: -300px;
+  left: -300px;
+}
+
+.div5 {
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff416c), to(#ff4b2b));
+  background: linear-gradient(#ff416c, #ff4b2b);
+  left: 20%;
+  bottom: 30%;
+  -webkit-transform: rotate(55deg);
+          transform: rotate(55deg);
+}
+
+.div6 {
+  height: 0.8rem;
+  width: 0.8rem;
+  top: 10%;
+  right: 28%;
+  background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+.div7 {
+  height: 1rem;
+  width: 1rem;
+  right: 25%;
+  bottom: 30%;
+  background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+}
+
+.div8 {
+  height: 2rem;
+  width: 2rem;
+  top: 50px;
+  left: 450px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff416c), to(#ff4b2b));
+  background: linear-gradient(#ff416c, #ff4b2b);
+}
+
+.div9 {
+  height: 4rem;
+  width: 4rem;
+  bottom: -10%;
+  right: 32%;
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+}
+
+.div10 {
+  height: 0.75rem;
+  width: 0.75rem;
+  top: 280px;
+  left: 130px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff416c), to(#ff4b2b));
+  background: linear-gradient(#ff416c, #ff4b2b);
+}
+
+.div11 {
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 5px;
+  background: linear-gradient(315deg, #63a4ff 0%, #83eaf1 74%);
+  top: 250px;
+  right: 300px;
+  -webkit-transform: rotate(55deg);
+          transform: rotate(55deg);
+}
+
+.card-container {
+  width: 7rem;
+  height: 9rem;
+  background: rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 5px 3px 30px black;
+          box-shadow: 5px 3px 30px black;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.game-name {
+  position: absolute;
+  color: #ff4b2b;
+  top: 33px;
+  left: 0;
+  -webkit-transform: rotateZ(-36deg);
+          transform: rotateZ(-36deg);
+  font-size: 0.7rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.game-name::after {
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 300px;
+  bottom: -10px;
+  left: -45px;
+  background: linear-gradient(-45deg, #c34ca6 0%, #8c00ff 50%);
+  font-weight: 700;
+}
