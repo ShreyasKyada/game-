@@ -10,9 +10,14 @@
   font-size: 60px;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 .container {
-  height: 100vh;
-  width: 100vw;
+    height: 100%;
+    width: 100%;
   background-color: #1c1c25;
   /* #e3e3da */
   position: absolute;
